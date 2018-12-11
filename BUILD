@@ -5,6 +5,7 @@ genrule(
     srcs = [
         "@lzfse//:lzfse",
         "@lzfse//:lzfse_cli",
+        "@zlib//:zlib"
     ],
     outs = [
         "dummy.txt",
